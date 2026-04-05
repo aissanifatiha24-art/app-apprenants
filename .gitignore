@@ -1,0 +1,55 @@
+# ====================================
+# IGNORER POUR LE BACKEND
+# ====================================
+
+# Dépendances backend
+backend/node_modules/
+backend/package-lock.json
+
+# Variables d'environnement backend
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/.env.development
+
+# Logs backend
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+
+# ====================================
+# IGNORER POUR TOUT LE PROJET
+# ====================================
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Dossiers IDE (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MongoDB (données locales)
+data/
+mongodb-data/
+dump/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+
+# ====================================
+# NOTE: Le frontend a son propre .gitignore
+# Les règles pour frontend sont déjà dans frontend/.gitignore
+# ====================================
